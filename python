@@ -1,0 +1,25 @@
+def main():
+  
+  import time
+  v = input("what is your favtoite number ")
+  while (v != "7"):
+    print("wrong")
+    time.sleep(1)
+    print("3")
+    time.sleep(1)
+    print("2")
+    time.sleep(1)
+    print("1")
+    time.sleep(1)
+    print("try again")
+    time.sleep(1)
+    v = input("what is your favtoite number ")
+    
+  if v == "7" :
+    print("nice")
+    a = input("wanna try again \ntype y or yes \ntype n for no ")
+    
+    
+
+main()
+ 
